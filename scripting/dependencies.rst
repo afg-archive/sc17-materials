@@ -63,7 +63,7 @@ Sample I/O
 
 .. code-block:: text
 
-  $ ./finddep /home/homework/repodata gcc
+  $ ./finddep /home/shared/repodata gcc
   gcc
   libmpc
   mpfr
@@ -82,7 +82,7 @@ Sample I/O
   
 .. code-block:: text
 
-  $ ./finddep /home/homework/repodata openssh
+  $ ./finddep /home/shared/repodata openssh
   openssh
   ldns
   dnssec-anchors
@@ -109,7 +109,7 @@ Sample I/O
 
 .. code-block:: text
 
-  $ ./finddep /home/homework/repodata netcdf
+  $ ./finddep /home/shared/repodata netcdf
   netcdf
   curl
   libpsl
