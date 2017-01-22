@@ -21,7 +21,7 @@ Example
 
 A user wishes to install ``gcc``, and the repository's data is located at ``/home/afg/repodata``, then he/she would type::
 
-  ``./finddep /home/afg/repodata gcc``
+  ./finddep /home/afg/repodata gcc
 
 Your script should read the files in repodata to decide which program are to be installed.  
 
