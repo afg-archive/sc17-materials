@@ -79,4 +79,4 @@ Hints
 -----
 
 * ``bc`` -- if using the shell
-* `os.getenv <https://docs.python.org/3/library/os.html#os.getenv>`_ -- if using python
+* `os.getenv <https://docs.python.org/3/library/os.html#os.getenv>`_ `sys.exit <https://docs.python.org/3/library/sys.html#sys.exit>`_ -- if using python
