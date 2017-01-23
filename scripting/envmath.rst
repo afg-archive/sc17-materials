@@ -54,7 +54,7 @@ missing ``B`` (output nothing, return 16)::
 
   $ env A=6 OP='+' ./envmath
   $ echo $?
-  0
+  16
   
 missing ``A`` and ``OP``::
 
