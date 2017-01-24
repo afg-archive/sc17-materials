@@ -27,19 +27,19 @@ case)
 
 1.  [Even-phase] even/odd indexed adjacent elements are grouped into pairs
 
-    .. image:: a.png
+    .. image:: images/a.png
 
 2.  [Even-phase] elements in a pair are switched if they are in the wrong order.
 
-    .. image:: b.png
+    .. image:: images/b.png
 
 3.  [Odd-phase] odd/even indexed adjacent elements are grouped into pairs.
 
-    .. image:: c.png
+    .. image:: images/c.png
 
 4.  [Odd-phase] elements in a pair are switched if they are in the wrong order
 
-    .. image:: d.png
+    .. image:: images/d.png
 
 5.  Run even-phase and odd-phase alternatively until no swap-work happens in
     both even-phase and odd phase.
@@ -192,13 +192,13 @@ Report must contain the following contents, and you can add more as you like.
     *   If you have any feedback, please write it here. Such as comments for
         improving the spec of this assignment, etc.
 
-.. image:: 1.png
+.. image:: images/1.png
 
-.. image:: 2.png
+.. image:: images/2.png
 
-.. image:: 3.png
+.. image:: images/3.png
 
-.. image:: 4.png
+.. image:: images/4.png
 
 6 Grading
 ---------
