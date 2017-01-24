@@ -1,6 +1,16 @@
 Homework 1: Odd-Even Sort
 =========================
 
+0 Submission
+------------
+
+Deadline: TBA
+
+*   ``~/homework/HW1/Makefile``
+*   ``~/homework/HW1/oesort_basic.c (or .cc)``
+*   ``~/homework/HW1/oesort_advanced.c (or .cc)``
+*   ``~/homework/HW1/oesort_report.pdf``
+
 1 Goal
 ------
 
@@ -179,6 +189,12 @@ Report must contain the following contents, and you can add more as you like.
 
         Additional plots (with explanation) and studies. The more, the better.
 
+    .. image:: images/1.png
+
+    .. image:: images/2.png
+
+    .. image:: images/3.png
+
 4.  Experience / Conclusion
 
     It could include these following aspects:
@@ -191,14 +207,6 @@ Report must contain the following contents, and you can add more as you like.
 
     *   If you have any feedback, please write it here. Such as comments for
         improving the spec of this assignment, etc.
-
-.. image:: images/1.png
-
-.. image:: images/2.png
-
-.. image:: images/3.png
-
-.. image:: images/4.png
 
 6 Grading
 ---------
@@ -244,12 +252,12 @@ Report must contain the following contents, and you can add more as you like.
 7 Reminder
 ----------
 
-1.  Please package your codes and report in a file named HW1_{student-ID}.zip which
-contains:
+1.  Please put your codes and report on apollo31 in ``~/homework/HW1/``
 
-    *   oesort_basic.c (or .cc)
-    *   oesort_advanced.c (or .cc)
-    *、  oesort_report.pdf
+    *   ``~/homework/HW1/Makefile``
+    *   ``~/homework/HW1/oesort_basic.c (or .cc)``
+    *   ``~/homework/HW1/oesort_advanced.c (or .cc)``
+    *   ``~/homework/HW1/oesort_report.pdf``
 
 2.  Since we have limited resources for you guys to use, please start your work ASAP.
     Do not leave it until the last day!
