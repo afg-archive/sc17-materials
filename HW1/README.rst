@@ -1,6 +1,9 @@
 Homework 1: Odd-Even Sort
 =========================
 
+.. contents::
+    :local:
+
 0 Submission
 ------------
 
