@@ -1,4 +1,4 @@
-Homework 1: Odd-Even Sort
+Homework 2: Odd-Even Sort
 =========================
 
 .. contents::
@@ -9,10 +9,9 @@ Homework 1: Odd-Even Sort
 
 Deadline: TBA
 
-*   ``~/homework/HW1/Makefile``
-*   ``~/homework/HW1/oesort_basic.c (or .cc)``
-*   ``~/homework/HW1/oesort_advanced.c (or .cc)``
-*   ``~/homework/HW1/oesort_report.pdf``
+*   ``~/homework/HW2/oesort_basic.c (or .cc)``
+*   ``~/homework/HW2/oesort_advanced.c (or .cc)``
+*   ``~/homework/HW2/oesort_report.pdf``
 
 1 Goal
 ------
@@ -74,7 +73,7 @@ case)
 
         .. code-block:: bash
 
-            mpirun ./HW1_104012345 1000 in_file out_file
+            mpirun ./oesort_basic 1000 in_file out_file
 
 3.  The input file lists n 32-bit signed integers in binary format. Please refer to the
 sample input files.
@@ -255,12 +254,11 @@ Report must contain the following contents, and you can add more as you like.
 7 Reminder
 ----------
 
-1.  Please put your codes and report on apollo31 in ``~/homework/HW1/``
+1.  Please put your codes and report on apollo31 in ``~/homework/HW2/``
 
-    *   ``~/homework/HW1/Makefile``
-    *   ``~/homework/HW1/oesort_basic.c (or .cc)``
-    *   ``~/homework/HW1/oesort_advanced.c (or .cc)``
-    *   ``~/homework/HW1/oesort_report.pdf``
+    *   ``~/homework/HW2/oesort_basic.c (or .cc)``
+    *   ``~/homework/HW2/oesort_advanced.c (or .cc)``
+    *   ``~/homework/HW2/oesort_report.pdf``
 
 2.  Since we have limited resources for you guys to use, please start your work ASAP.
     Do not leave it until the last day!
