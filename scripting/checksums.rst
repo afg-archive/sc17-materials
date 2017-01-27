@@ -36,6 +36,8 @@ The script should accept an optional argument to specify the depth of the direct
 
 You may output the checksums in any order (e.g. which file's checksum got displayed first does not matter), just make sure that the checksums and files are correct.
 
+The recursive scan should start at the current working directory, therefore it is not passed through the command line.
+
 Sample I/O
 ----------
 
