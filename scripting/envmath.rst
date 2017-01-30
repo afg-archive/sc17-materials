@@ -6,11 +6,11 @@ Practice of using environment variables.
 Problem description
 -------------------
 
-Write a script ``envmath`` to do some simple math.
+Write a script ``envmath`` to do some simple math: ``A OP B``.
 
-The script should support three operations: ``+``, ``-``, ``*``
+The operands are integers (possibly negative!), and the operands are ``+``, ``-``, and ``*``
 
-The operands are passed with environment variables, which are ``A``, ``B``, as well as the operator ``OP``.
+The operands are passed with environment variables ``A``, ``B``, as well as the operator is passed with the environment variable ``OP``.
 
 Standard output
 ---------------
@@ -25,6 +25,20 @@ Your script should indicate if any input is invalid.
 * The return value should be masked with 8 if ``A`` is not a valid integer.
 * The return value should be masked with 16 if ``B`` is not a valid integer.
 * The return value should be masked with 32 if ``OP`` is not a valid operator.
+
+For example, these are valid values for ``A`` and ``B``:
+
+* ``-10``
+* ``65``
+* ``0``
+
+While these are invalid values for ``A`` and ``B``:
+
+* ``--10``
+* ``6 5``
+* ``0x37``
+
+And anything besides ``+`` ``-`` ``*`` are invalid values for ``OP``
 
 Sample I/O
 ----------
