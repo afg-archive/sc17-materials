@@ -35,7 +35,7 @@ For example, these are valid values for ``A`` and ``B``:
 While these are invalid values for ``A`` and ``B``:
 
 * ``--10``
-* ``6 5``
+* ``6 5`` -- (a space in the middle)
 * ``0x37``
 
 And anything besides ``+`` ``-`` ``*`` are invalid values for ``OP``
