@@ -40,6 +40,8 @@ SYNTAX: ``recur-sha1sum [DEPTH]``
 
 * If there are not any files in the current working directory, your script should not output anything.
 
+* Watch out! Filenames may contain spaces.
+
 Sample I/O
 ----------
 
