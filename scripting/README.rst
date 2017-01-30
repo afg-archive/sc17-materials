@@ -8,6 +8,8 @@ Deadline
 
 2/8 23:59
 
+We will use ``$ stat filename`` to check your submission time.
+
 Submission
 ----------
 
