@@ -6,15 +6,17 @@ Problem description
 
 SYNTAX: ``finddep REPODATA [PACKAGE]...``
 
-Write a script/program to find the dependency of the specified package(s).
+* Write a script/program to find the dependency of the specified package(s).
 
-REPODATA, the first argument, is a directory, in which the packages' dependencies are specified.
+* REPODATA, the first argument, is a directory, in which the packages' dependencies are specified.
 
-The packages' dependecies are specified with a file in REPODATA named with the package's name, each separated by a newline.
+* The packages' dependecies are specified with a file in REPODATA named with the package's name, each separated by a newline.
 
-PACKAGE, the second to last arguments, are the package(s) the user wishes to install.
+* PACKAGE, the second to last arguments, are the package(s) the user wishes to install.
 
-Your script should output what packages will be installed eventually, separated by newlines.
+* Your script should output what packages will be installed eventually, separated by newlines.
+
+* You are safe to assume that package names do not contain whitespaces.
 
 Example
 -------
