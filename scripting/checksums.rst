@@ -30,13 +30,15 @@ Problem description
 
 SYNTAX: ``recur-sha1sum [DEPTH]``
 
-Write a script ``recur-sha1sum`` to compute the sha1sum of files in a directory recursively.
+* Write a script ``recur-sha1sum`` to compute the sha1sum of files in a directory recursively.
 
-The script should accept an optional argument to specify the depth of the directory; if the depth is not specified, then allow unlimited depth.
+* The script should accept an optional argument to specify the depth of the directory; if the depth is not specified, then allow unlimited depth.
 
-You may output the checksums in any order (e.g. which file's checksum got displayed first does not matter), just make sure that the checksums and files are correct.
+* You may output the checksums in any order (e.g. which file's checksum got displayed first does not matter), just make sure that the checksums and files are correct.
 
-The recursive scan should start at the current working directory, therefore it is not passed through the command line.
+* The recursive scan should start at the current working directory, therefore it is not passed through the command line.
+
+* If there are not any files in the current working directory, your script should not output anything.
 
 Sample I/O
 ----------
