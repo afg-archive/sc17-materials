@@ -92,5 +92,5 @@ large values should be supported::
 Hints
 -----
 
-* ``bc`` -- if using the shell
+* ``bc`` / ``expr`` -- if using the shell
 * `os.getenv <https://docs.python.org/3/library/os.html#os.getenv>`_ `sys.exit <https://docs.python.org/3/library/sys.html#sys.exit>`_ -- if using python
