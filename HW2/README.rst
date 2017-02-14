@@ -75,7 +75,7 @@ case)
 
             mpirun ./oesort_basic 1000 in_file out_file
 
-3.  The input file lists n 32-bit signed integers in binary format. Please refer to the
+3.  The input file lists n 32-bit signed `little endian <https://en.wikipedia.org/wiki/Endianness#Little>`_ integers in binary format. Please refer to the
 sample input files.
 
 4.  The output file lists the n 32-bit signed integers from the input file in ascending
@@ -146,7 +146,8 @@ Report must contain the following contents, and you can add more as you like.
         What functions you use? Why?
 
     *   How you deal with the condition of the number of input item and the
-        number of process are arbitrary?
+        
+        of process are arbitrary?
 
     *   How do you sort in the advanced version?
 
@@ -264,3 +265,8 @@ Report must contain the following contents, and you can add more as you like.
     Do not leave it until the last day!
 
 3.  Asking questions is welcomed!
+
+8 Changelog
+-----------
+
+* 2/14 Clarify the input is little endian
