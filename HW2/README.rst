@@ -64,7 +64,7 @@ case)
 2.  Your program accepts 3 input parameters, separated by space. They are:
 
 
-    1.  (Integer) the size of the list n (0 ≤ n ≤ 2147483647)
+    1.  (Integer) the size of the list n (0 ≤ n ≤ 536870912, i.e. the input file's size will not exceed 2GB)
 
     2.  (String) the input file name
 
